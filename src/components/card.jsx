@@ -6,7 +6,9 @@ export default function Card() {
     return (
         <div className="card">
             <div className="picture">
+                <div className="active"></div>
                 <img src={nft} alt="" />
+                <img src="../../public/nft-preview-card-component-main/images/icon-view.svg" alt="" />
             </div>
             <div className="infos">
                 <span className="title">Equilibrium #3429</span>
