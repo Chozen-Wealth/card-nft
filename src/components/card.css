@@ -34,11 +34,13 @@
 }
 .picture:hover .active, .picture:hover img:last-of-type {
     opacity: 1;
+    z-index: 2;
 }
 .picture img:last-of-type {
     position: absolute;
     opacity: 0;
     transition: 0.3s ease;
+    z-index: 2;
 }
 .infos {
     display: flex;

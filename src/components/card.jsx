@@ -1,6 +1,7 @@
 import "./card.css"
 import nft from "../../public/nft-preview-card-component-main/images/image-equilibrium.jpg"
 import profilePic from "../../public/nft-preview-card-component-main/images/image-avatar.png"
+import view from "../../public/nft-preview-card-component-main/images/icon-view.svg"
 
 export default function Card() {
     return (
@@ -8,7 +9,7 @@ export default function Card() {
             <div className="picture">
                 <div className="active"></div>
                 <img src={nft} alt="" />
-                <img src="../../public/nft-preview-card-component-main/images/icon-view.svg" alt="" />
+                <img className="preview" src={view} alt="" />
             </div>
             <div className="infos">
                 <span className="title">Equilibrium #3429</span>
